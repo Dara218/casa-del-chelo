@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Del Chelo</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="/src/input.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/public/images/casa logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Oswald:wght@300&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+</head>
+<body>
+    
+    <nav class="bg-white bg-opacity-80 border-gray-200 dark:bg-gray-900 fixed top-0 left-0 w-full z-20">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <div class="flex items-center">
+                <img src="../public/images/casa logo.jpg" class="h-8 mr-3" alt="Casa main logo" />
+                <div class="self-center font-semibold whitespace-nowrap dark:text-white"><span class="font-qwitcher_grypen text-4xl">Casa</span> <span class="font-bebas_neue text-xl">Del Chelo</span></div>
+            </div>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#about"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">About</a>
+                    </li>
+                    <li>
+                        <a href="#service"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Services</a>
+                    </li>
+                    <!-- <li>
+                        <a href="#pricing"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Pricing</a>
+                    </li> -->
+                    <li>
+                        <a href="#contact"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="relative">
+        
+        <div class="w-full h-screen bg-black bg-opacity-20 z-10 absolute top-0 left-0"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30">
+            <p class="font-qwitcher_grypen text-9xl text-white">Unwind</p> <span class="text-4xl font-oswald text-white">at Casa del Chelo</span>
+        </div>
+        <video src="/public/videos/casa-bg.mp4" class="h-screen object-fill w-screen" autoplay loop></video>
+    </div>
+
+    <div class="flex flex-col gap-12 items-center my-4">
+        <div class="flex flex-col gap-3 w-7/12 mt-4" id="about">
+            <p class="text-4xl text-slate-500 font-bebas_neue">Casa Del Chelo</p>
+            <div class="w-full bg-black h-px"></div>
+
+            <div class="flex flex-col gap-3 w-full font-fjalla_one">
+                <p>
+                    For nature lovers seeking a break from city life, Casa del Chelo, located in Tagaytay, beckons as the ideal retreat. This peaceful hideaway provides the ideal location to relax and rejuvenate within the calming embrace of nature. It is surrounded by stunning surroundings.
+                </p>
+
+                <p>
+                    Casa del Chelo offers a private retreat for both family togetherness and barkada vacations. It is a paradise created specifically for family and friends. It offers breathtaking views from its lovely hilltop location, creating the perfect environment for priceless memories. Casa del Chelo makes sure that your getaway is a seamless fusion of rest and connection, whether you're soaking in the luxury of your own private staycation home, partaking in activities inspired by nature, or just taking in the beauty of the surrounds.
+                </p>
+            </div>
+        </div>
+
+        <img src="/public/images/casa wide.jpg" alt="casa main logo" class="rounded-md h-[50vh] w-11/12 object-cover">
+
+        <div class="flex flex-col gap-3 w-8/12">
+            <p class="text-4xl text-slate-500 font-bebas_neue">We Share a Sense of Concern</p>
+            <div class="w-full bg-black h-px"></div>
+
+            <div class="flex flex-col gap-3 w-full font-fjalla_one">
+                <p>
+                    At Casa del Chelo, we make a sincere commitment to looking after our visitors. Every element of your stay is given top priority from the time you enter our refuge to guarantee that you have an unmatched level of comfort and relaxation. Our devoted team is at your disposal at all times, prepared to meet your needs and go above and beyond your expectations. Our ultimate objective is to create a refuge where you feel really cared for and appreciated during your stay, whether it's the precise attention to your rooms, the culinary delights made with care, or the tranquil ambience we arrange.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-3 w-11/12 md:w-8/12">
+            <p class="text-4xl text-slate-500 font-bebas_neue">Safe spaces</p>
+            <div class="w-full bg-black h-px"></div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="grid gap-4">
+                    <a href="/public/images/gallery/bedroom.jpg" data-fancybox="casa-gallery" data-caption="Bedroom 1" class="group relative cursor-pointer">
+                        <img class="h-auto max-w-full rounded-lg" src="/public/images/gallery/bedroom.jpg" alt="bedroom 1" loading="lazy">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Bedroom 1</p>
+                        </div>
+                    </a>
+                    
+                    <a href="/public/images/gallery/bedroom2.jpg" data-fancybox="casa-gallery" data-caption="Bedroom 2" class="group relative cursor-pointer">
+                        <img class="h-auto max-w-full rounded-lg" src="/public/images/gallery/bedroom2.jpg" alt="bedroom 2" loading="lazy">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Bedroom 2</p>
+                        </div>
+                    </a>
+                    <a href="/public/images/gallery/bedroom3.jpg" data-fancybox="casa-gallery" data-caption="Bedroom 3" class="group relative cursor-pointer">
+                        <img class="h-auto max-w-full rounded-lg" src="/public/images/gallery/bedroom3.jpg" alt="bedroom 3" loading="lazy">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Bedroom 3</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid gap-4">
+                    <a href="/public/images/gallery/dining.jpg" data-fancybox="casa-gallery" data-caption="Dining" class="group relative cursor-pointer">
+                        <img class="h-full max-w-full rounded-lg" src="/public/images/gallery/dining.jpg" alt="dining" loading="lazy">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Dining</p>
+                        </div>
+                    </a>
+                    <a href="/public/images/gallery/kitchen.jpg" data-fancybox="casa-gallery" data-caption="Kitchen" class="group relative cursor-pointer">
+                        <img class="h-full max-w-full rounded-lg" src="/public/images/gallery/kitchen.jpg" alt="kitchen" loading="lazy">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Kitchen</p>
+                        </div>
+                    </a>
+                    <a href="/public/images/gallery/living.jpg" data-fancybox="casa-gallery" data-caption="Living" class="group relative cursor-pointer">
+                        <img class="h-full max-w-full rounded-lg" src="/public/images/gallery/living.jpg" alt="living" loading="lazy">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Living</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hidden md:grid gap-4">
+                    <a href="/public/images/gallery/outside.jpg" data-fancybox="casa-gallery" data-caption="Outside 1" class="group relative cursor-pointer">
+                        <img class="h-auto max-w-full rounded-lg" src="/public/images/gallery/outside.jpg" alt="outside 1" loading="lazy">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Outside 1</p>
+                        </div>
+                    </a>
+                    <a href="/public/images/gallery/outside2.jpg" data-fancybox="casa-gallery" data-caption="Kubo" class="group relative cursor-pointer">
+                        <img class="h-auto max-w-full rounded-lg" src="/public/images/gallery/outside2.jpg" alt="outside 2" loading="lazy">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Kubo</p>
+                        </div>
+                    </a>
+                    <a href="/public/images/gallery/outside3.jpg" data-fancybox="casa-gallery" data-caption="Outside 3" class="group relative cursor-pointer">
+                        <img class="h-auto max-w-full rounded-lg" src="/public/images/gallery/outside3.jpg" alt="outside 3" loading="lazy">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Outside 3</p>
+                        </div>
+                    </a>
+                    <a href="/public/images/gallery/outside4.jpg" data-fancybox="casa-gallery" data-caption="Midnight pool" class="group relative cursor-pointer">
+                        <img class="h-auto max-w-full rounded-lg" src="/public/images/gallery/outside4.jpg" alt="Midnight pool" loading="lazy">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Midnight pool</p>
+                        </div>
+                    </a>
+                    <a href="/public/images/gallery/outside5.jpg" data-fancybox="casa-gallery" data-caption="Pool" class="group relative cursor-pointer">
+                        <img class="h-auto max-w-full rounded-lg" src="/public/images/gallery/outside5.jpg" alt="outside 5" loading="lazy">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Pool</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="md:hidden grid grid-cols-2 md:grid-cols-3 gap-4">
+                <a href="/public/images/gallery/outside.jpg" data-fancybox="casa-gallery" data-caption="Outside 1" class="group relative cursor-pointer">
+                    <img class="h-auto max-w-full rounded-lg" src="/public/images/gallery/outside.jpg" alt="outside 1" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Outside 1</p>
+                    </div>
+                </a>
+                <a href="/public/images/gallery/outside2.jpg" data-fancybox="casa-gallery" data-caption="Kubo" class="group relative cursor-pointer">
+                    <img class="h-auto max-w-full rounded-lg" src="/public/images/gallery/outside2.jpg" alt="outside 2" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Kubo</p>
+                    </div>
+                </a>
+                <a href="/public/images/gallery/outside3.jpg" data-fancybox="casa-gallery" data-caption="Outside 3" class="group relative cursor-pointer">
+                    <img class="h-full max-w-full rounded-lg" src="/public/images/gallery/outside3.jpg" alt="outside 3" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Outside 3</p>
+                    </div>
+                </a>
+                <a href="/public/images/gallery/outside4.jpg" data-fancybox="casa-gallery" data-caption="Midnight pool" class="group relative cursor-pointer">
+                    <img class="h-full max-w-full rounded-lg" src="/public/images/gallery/outside4.jpg" alt="Midnight pool" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Midnight pool</p>
+                    </div>
+                </a>
+                <a href="/public/images/gallery/outside5.jpg" data-fancybox="casa-gallery" data-caption="Pool" class="group relative cursor-pointer">
+                    <img class="h-full max-w-full rounded-lg" src="/public/images/gallery/outside5.jpg" alt="outside 5" loading="lazy">
+                    <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                        <p class="text-white bg-black bg-opacity-50 px-4 py-2 rounded-lg">Pool</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-3 w-5/6" id="service">
+            <p class="text-4xl text-slate-500 font-bebas_neue">Amenities</p>
+            <div class="w-full bg-black h-px"></div>
+
+            <p class="text-2xl font-bebas_neue">Casa del Chelo offers:</p>
+
+            <div class="flex flex-col gap-4 w-full text-lg font-fjalla_one">
+                <ul>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> 3 rooms (Sanitized)</li>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> 1 indoor bathroom with heater</li>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> 1 outdoor bathroom</li>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> Air conditioning in all rooms</li>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> Rice cooker, electric kettle, induction cooker</li>
+                </ul>
+                <ul>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> Water dispenser</li>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> Refrigerator</li>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> TV with Netflix</li>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> Wi-Fi</li>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> Platinum Videoke set and Bluetooth</li>
+                </ul>
+                <ul>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> Swimming pool</li>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> Kubo (traditional Filipino hut) and garden set</li>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> Barbecue grill</li>
+                    <li><i class="fa-solid fa-square-check text-green-500"></i> Use of kitchen facilities and utensils</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <p class="text-2xl font-bebas_neue">Day tour and overnight schedule time:</p>
+            <div class="flex flex-col gap-4 w-full text-lg font-fjalla_one">
+                <ul><p>DAY TOUR</p>
+                    <li>Check in - 8:00 AM</li>
+                    <li>Check out - 6:00 AM</li>
+                </ul>
+                <ul><p>OVERNIGHT (21 HOURS STAY)</p>
+                    <li>Check in - 2:00 pm</li>
+                    <li>Check out - 11:00 am  (Next day)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-orange-600 bg-opacity-80 mt-20" id="contact">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center">
+                        <img src="/public/images/casa logo.jpg" class="h-11 mr-3" alt="Casa del Chelo Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap text-slate-200">Casa del Chelo</span>
+                    </div>
+                </div>
+                <div class="flex flex-col md:grid grid-cols-2 gap-8 sm:gap-6">
+                    <div class="col-span-1 flex flex-col gap-8">
+                        <div>
+                            <h2 class="mb-6 text-lg font-semibold uppercase text-slate-200">Address</h2>
+                            <ul class="text-white dark:text-gray-400 font-medium">
+                                <li class="mb-4 flex items-center gap-2">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>0908 892 0528</p>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>Springwoods Ville, Tagaytay, Mendez, Philippines</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-lg font-semibold uppercase text-slate-200">Follow Us</h2>
+                            <ul class="text-white dark:text-gray-400 font-medium">
+                                <li class="mb-4 flex items-center gap-2">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <a href="https://www.instagram.com/casadelchelo/" target="_blank"  class="hover:underline ">Instagram</a>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <a href="https://www.facebook.com/CasaDelChelo" target="_blank" class="hover:underline">Facebook</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-span-1">
+                        <h2 class="mb-6 text-lg font-semibold uppercase text-slate-200">Location</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li>
+                                <div id="map" style="width: 100%; height: 400px;"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div class="w-full text-center">
+                <span class="text-sm text-slate-200">© 2023 Casa del Chelo™. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8zDQbE-IxsugAu6vJS-ZDJsFnh-2PtxI&libraries=places"></script>
+    <script src="app.js"></script>
+</body>
+</html>
